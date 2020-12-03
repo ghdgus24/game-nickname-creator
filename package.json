@@ -1,0 +1,25 @@
+{
+  "name": "game-nickname-creator",
+  "version": "1.0.0",
+  "description": "game nickname creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghdgus24/game-nickname-creator.git"
+  },
+  "author": "syong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghdgus24/game-nickname-creator/issues"
+  },
+  "homepage": "https://ghdgus24.github.io/game-nickname-creator",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
